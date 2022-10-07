@@ -1,0 +1,156 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive; 
+    background: linear-gradient(rgb(68, 68, 223), pink);
+    color: white; 
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+
+}
+
+#bday-age {
+    background: #efb0c9;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#bday-date {
+    background: #efb0c9;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+#img-circle {
+    width: 200px;
+    border-radius: 50%; 
+    overflow: hidden;
+    margin: auto;
+    border: 7px solid #efb0c9; 
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin: 0 0 30px 0;
+}
+
+#gift-img-1 {
+    width: 400px;
+    border: 5px solid whitesmoke;
+    border-radius: 8px; 
+    height: 400px;
+    background-image: url(gift2.jpg); 
+    background-size: cover;
+    /* No need to us this cuz its already a DIV display: block; */
+    margin: auto; 
+}
+
+#gift-img-1:hover {
+    background-image: url(https://media3.giphy.com/media/artj92V8o75VPL7AeQ/200w.webp?cid=ecf05e47vfn350garuzl240f3udvloan3bt5epague4lqfbl&rid=200w.webp&ct=g);
+    background-size: contain;
+    object-fit: cover;
+}
+
+#gift-img-2 {
+    width: 400px;
+    border: 5px solid whitesmoke;
+    border-radius: 8px; 
+    height: 400px;
+    background-image: url(gift2.jpg); 
+    background-size: cover;
+    /* No need to us this cuz its already a DIV display: block; */
+    margin: auto; 
+}
+
+#gift-img-2:hover {
+    background-image: url(https://media4.giphy.com/media/ckB5razpgN2rd4qTfe/giphy.webp?cid=ecf05e47nc4wnj7ocoe9gajl3ct4cxxx0s6pa5oxwmujkd5p&rid=giphy.webp&ct=g);
+} 
+
+#gift-img-3 {
+    width: 400px;
+    border: 5px solid whitesmoke;
+    border-radius: 8px; 
+    height: 400px;
+    background-image: url(gift2.jpg); 
+    background-size: cover;
+    /* No need to us this cuz its already a DIV display: block; */
+    margin: auto; 
+}
+
+#gift-img-3:hover {
+    background-image: url(https://media4.giphy.com/media/M9Dh3YtDvZj9u/200w.webp?cid=ecf05e476oq166ncqbhgses0vra62n42de3yc8ewwogt25d5&rid=200w.webp&ct=g);
+    background-size: 400px 350px;
+    
+} 
+
+#gift-img-4 {
+    width: 400px;
+    border: 5px solid whitesmoke;
+    border-radius: 8px; 
+    height: 400px;
+    background-image: url(gift2.jpg); 
+    background-size: cover;
+    /* No need to us this cuz its already a DIV display: block; */
+    margin: auto; 
+    margin-bottom: 100px;
+}
+
+#gift-img-4:hover {
+    background-image: url(https://media2.giphy.com/media/sOgBg74oZS939GU8xb/200w.webp?cid=ecf05e47b72r84fmywos67ujh8fu0t9hxxv8dvpzqh7wot84&rid=200w.webp&ct=g);
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+#gift-img-5 {
+    width: 400px;
+    border: 5px solid whitesmoke;
+    border-radius: 8px; 
+    height: 200px;
+     background-image: url(gift2.jpg);  
+    background-size: cover;
+    /* No need to us this cuz its already a DIV display: block; */
+    margin: auto; 
+    margin-bottom: 100px;
+}
+
+#gift-img-5:hover {
+
+    background-image: url(https://media2.giphy.com/media/BPJmthQ3YRwD6QqcVD/200w.webp?cid=ecf05e47e8tv6de8ve7676lryrptxywsmntjytmjwwfgn721&rid=200w.webp&ct=g); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#footer {
+    text-decoration: underline;
+    
+    display: block;
+    margin: 10px auto 50px;
+    font-style: italic;
+}
+
+a {
+    color:white;
+}
+
+/* USing flexbox instead 
+.back-color {
+    background-color: #efb0c9;
+} */
+
+ 
